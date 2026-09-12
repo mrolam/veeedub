@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="VEEEDUB — DJ / Producer / Promoter. Know Your Worth. Move Like It. Funky, disco, jackin & soulful house." />
+  <meta name="theme-color" content="#070707" />
+  <title>Contact & Booking | VEEEDUB</title>
+  <base href="/veeedub/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html" aria-label="VEEEDUB home">VEEE<span>DUB</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="photos.html">Photos</a>
+        <a href="store.html">Store</a>
+        <a class="nav-cta" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap page-hero">
+      <p class="section-label">Booking</p>
+      <h1>Contact</h1>
+      <p>Booking via Rolam Management. Send the date, city, and vibe — Mitch gets every inquiry.</p>
+    </div>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-panel">
+        <div class="pixel-row" aria-hidden="true"></div>
+        <div class="contact-grid">
+          <div>
+            <p class="section-label">Rolam Management</p>
+            <h2 id="contact-title">Ready to move the room?</h2>
+            <address class="contact-card">
+              <p class="contact-role">Booking Contact</p>
+              <p class="contact-name">Mitch Rolam</p>
+              <p><a href="mailto:mitch@rolams.com">mitch@rolams.com</a></p>
+              <p class="contact-phone"><a href="tel:+18186748696">(818) 674-8696</a></p>
+              <p class="contact-mgmt">Rolam Management</p>
+              <p style="color:var(--muted);font-size:.9rem;margin:0 0 .5rem">Artist: <a href="mailto:VEEEDUBMusic@gmail.com">VEEEDUBMusic@gmail.com</a></p>
+              <div class="socials" aria-label="Listen and connect">
+                <a href="https://www.instagram.com/veeedub/" rel="noopener noreferrer" target="_blank">Instagram</a>
+                <a href="https://open.spotify.com/artist/1nsAHTXUtBXCcs1PymjgxT" rel="noopener noreferrer" target="_blank">Spotify</a>
+                <a href="https://soundcloud.com/veeedub_music" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+                <a href="https://www.youtube.com/channel/UCQcIZpfjfemiQGQEARQMyng" rel="noopener noreferrer" target="_blank">YouTube</a>
+                <a href="https://www.beatport.com/track/keep-forgettin/30224544" rel="noopener noreferrer" target="_blank">Beatport</a>
+              </div>
+            </address>
+          </div>
+
+          <form class="booking-form"
+                action="https://formsubmit.co/mitch@rolams.com"
+                method="POST">
+            <!-- FormSubmit → emails Mitch at mitch@rolams.com (static GitHub Pages friendly) -->
+            <input type="hidden" name="_subject" value="VEEEDUB booking inquiry" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_cc" value="VEEEDUBMusic@gmail.com" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="_next" value="https://mrolam.github.io/veeedub/contact.html?sent=1" />
+
+            <label>Name
+              <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+            </label>
+            <div class="form-row">
+              <label>Email
+                <input type="email" name="email" required autocomplete="email" placeholder="you@email.com" />
+              </label>
+              <label>Phone <span class="hint">(optional)</span>
+                <input type="tel" name="phone" autocomplete="tel" placeholder="(555) 000-0000" />
+              </label>
+            </div>
+            <label>Event / date / venue
+              <input type="text" name="event" required placeholder="e.g. Sat Jun 20 · Academy LA" />
+            </label>
+            <label>Message
+              <textarea name="message" rows="5" required placeholder="Crowd size, vibe, timing, budget notes…"></textarea>
+            </label>
+            <p class="form-note">Submits to <strong>mitch@rolams.com</strong> (cc artist). First send may ask Mitch to confirm FormSubmit.</p>
+            <button class="btn btn-primary" type="submit">Send booking inquiry</button>
+          </form>
+        </div>
+        <p class="footer-tag">“Know Your Worth. Move Like It.” — Big V Energy</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> VEEEDUB · All rights reserved</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
