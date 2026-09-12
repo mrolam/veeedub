@@ -25,3 +25,7 @@ Source: branch `main`, folder `/ (root)`.
 ## Booking form
 
 FormSubmit posts to `mitch@rolams.com` (cc artist). First submission may require Mitch to confirm FormSubmit.
+
+## Photos
+
+Clean studio portraits only (`assets/studio-1.jpg` … `studio-5.jpg`). No Canva editor chrome / EPK window screenshots.
