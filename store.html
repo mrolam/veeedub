@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="VEEEDUB — DJ / Producer / Promoter. Know Your Worth. Move Like It." />
+  <meta name="description" content="VEEEDUB store — Coming Soon." />
   <meta name="theme-color" content="#070707" />
   <title>Store | VEEEDUB — Coming Soon</title>
   <base href="/veeedub/" />
@@ -17,61 +17,55 @@
   <header class="site-header" id="top">
     <div class="wrap header-inner">
       <a class="logo" href="index.html" aria-label="VEEEDUB home">VEEE<span>DUB</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
-        <span></span><span></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary">
-        <a href="index.html">About</a>
-        <a href="why-book.html">Why Book</a>
-        <a href="venues.html">Venues Played</a>
-        <a href="store.html" aria-current="page">Store</a>
-        <a class="nav-cta" href="contact.html">Contact</a>
+      <nav class="tabs" aria-label="Primary">
+        <a class="tab" href="index.html">About</a>
+        <a class="tab" href="why-book.html">Why Book</a>
+        <a class="tab" href="venues.html">Venues Played</a>
+        <a class="tab is-active" href="store.html" aria-current="page">Store</a>
+        <a class="tab tab-cta" href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
+
   <main id="main">
-    <div class="wrap page-hero">
-      <p class="section-label">Merch</p>
-      <h1>Store</h1>
-      <p>Coming Soon — Big V Energy merch is on the way.</p>
-    </div>
-    <section class="section" aria-labelledby="store-title">
-      <div class="wrap">
-        <div class="hero-card" style="max-width:40rem">
-          <div class="pixel-row" aria-hidden="true"></div>
-          <p class="hero-card-kicker">Coming Soon</p>
-          <h2 id="store-title" style="margin:0 0 .75rem;font-family:var(--display)">Merch drops loading…</h2>
-          <p style="color:var(--muted);margin:0 0 1.25rem">
-            Tees, hats, and more — no fake checkout. Want first dibs? Email Mitch.
-            <!-- SHOPIFY: Drop Buy Button / product IDs here when ready. -->
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="mailto:mitch@rolams.com?subject=VEEEDUB%20merch%20notify%20me">Notify me</a>
-            <a class="btn btn-ghost" href="contact.html">Contact / Booking</a>
-          </div>
+    <section class="page wrap page-tight" aria-labelledby="store-title">
+      <p class="eyebrow">Merch</p>
+      <h1 id="store-title">Store</h1>
+      <p class="lede">Coming Soon — Big V Energy merch is on the way.</p>
+
+      <div class="panel store-hero">
+        <div class="pixel-row" aria-hidden="true"></div>
+        <p class="eyebrow orange">Coming Soon</p>
+        <h2 style="margin-bottom:.5rem">Merch drops loading…</h2>
+        <p class="lede" style="margin-bottom:0">Tees, hats, and more — no fake checkout. Want first dibs? Email Mitch.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:mitch@rolams.com?subject=VEEEDUB%20merch%20notify%20me">Notify me</a>
+          <a class="btn btn-ghost" href="contact.html">Contact / Booking</a>
         </div>
-        <div class="store-grid" style="margin-top:1.75rem" aria-hidden="true">
-          <article class="product-card">
-            <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">VEEE<span>DUB</span></p></div>
-            <div class="product-body"><h3>Big V Tee</h3><p class="product-price">$—</p><p class="product-desc">Placeholder</p></div>
-          </article>
-          <article class="product-card">
-            <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">BIG V</p></div>
-            <div class="product-body"><h3>Dad Hat</h3><p class="product-price">$—</p><p class="product-desc">Placeholder</p></div>
-          </article>
-          <article class="product-card">
-            <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">WORTH</p></div>
-            <div class="product-body"><h3>Move Like It Crew</h3><p class="product-price">$—</p><p class="product-desc">Placeholder</p></div>
-          </article>
-        </div>
-        <p class="store-note">Store checkout will connect later (Shopify or similar). Coming Soon only for launch.</p>
       </div>
+
+      <div class="store-grid" aria-hidden="true">
+        <article class="product-card">
+          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">VEEE<span>DUB</span></p></div>
+          <div class="product-body"><h3>Big V Tee</h3><p class="product-price">$—</p></div>
+        </article>
+        <article class="product-card">
+          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">BIG V</p></div>
+          <div class="product-body"><h3>Dad Hat</h3><p class="product-price">$—</p></div>
+        </article>
+        <article class="product-card">
+          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">WORTH</p></div>
+          <div class="product-body"><h3>Move Like It Crew</h3><p class="product-price">$—</p></div>
+        </article>
+      </div>
+      <p class="store-note">Checkout connects later (Shopify or similar). Coming Soon only for launch.</p>
     </section>
   </main>
+
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p>© <span id="year"></span> VEEEDUB · All rights reserved</p>
-      <a href="#top">Back to top</a>
+      <a href="index.html">About</a>
     </div>
   </footer>
   <script src="script.js" defer></script>

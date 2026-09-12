@@ -6,26 +6,21 @@ Artist site for **VEEEDUB** — DJ / Producer / Promoter.
 
 Live: https://mrolam.github.io/veeedub/
 
-## Nav (EPK-aligned)
+## Nav (Prism-style top tabs)
+
+Sticky pill tab bar — each tab is its own short page:
 
 | Tab | Page |
 |-----|------|
-| About | `index.html` — About VEEEDUB, Genres & Room Energy, Listen & Connect |
-| Why Book | `why-book.html` — Why Book VEEEDUB, Track Releases |
-| Venues Played | `venues.html` — venues + Opened For / Shared Decks |
+| About | `index.html` |
+| Why Book | `why-book.html` |
+| Venues Played | `venues.html` |
 | Store | `store.html` — Coming Soon |
-| Contact | `contact.html` — Booking Contact + FormSubmit → mitch@rolams.com |
+| Contact | `contact.html` — FormSubmit → mitch@rolams.com |
 
 ## GitHub Pages
 
 Source: branch `main`, folder `/ (root)`.
-
-```bash
-gh api -X POST repos/mrolam/veeedub/pages \
-  -f build_type=legacy \
-  -f source[branch]=main \
-  -f source[path]=/
-```
 
 ## Booking form
 
