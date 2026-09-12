@@ -12,7 +12,6 @@ Live (GitHub Pages): https://mrolam.github.io/veeedub/
 |------|---------|
 | `/` | Home |
 | `/experience.html` | Venues, opened-for, why book, releases |
-| `/photos.html` | Gallery |
 | `/store.html` | Merch — coming soon |
 | `/contact.html` | Booking form (FormSubmit → mitch@rolams.com) + socials |
 
