@@ -4,15 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Venues played by VEEEDUB — festivals, SoCal, Vegas, Ibiza." />
-  <meta name="theme-color" content="#070707" />
+  <meta name="theme-color" content="#007C82" />
   <title>Venues Played | VEEEDUB</title>
   <base href="/veeedub/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Nunito:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="theme-primary">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" id="top">
     <div class="wrap header-inner">
@@ -43,11 +43,13 @@
         </article>
       </div>
 
-      <p class="eyebrow" style="margin-top:1.35rem">Opened For / Shared Decks</p>
-      <ul class="name-marquee" role="list">
-        <li>Todd Terry</li><li>Roger Sanchez</li><li>Chapter &amp; Verse</li><li>Joel Corry</li>
-        <li>Cassim</li><li>Kaleena Zanders</li><li>Dillon Nathaniel</li><li>DJ Irene</li>
-      </ul>
+      <div class="band-teal theme-teal">
+        <p class="eyebrow">Opened For / Shared Decks</p>
+        <ul class="name-marquee" role="list">
+          <li>Todd Terry</li><li>Roger Sanchez</li><li>Chapter &amp; Verse</li><li>Joel Corry</li>
+          <li>Cassim</li><li>Kaleena Zanders</li><li>Dillon Nathaniel</li><li>DJ Irene</li>
+        </ul>
+      </div>
 
       <div class="photo-strip" aria-label="Studio portraits">
         <figure>
@@ -62,7 +64,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer theme-dark">
     <div class="wrap footer-inner">
       <p>© <span id="year"></span> VEEEDUB · All rights reserved</p>
       <a href="contact.html">Book VEEEDUB</a>

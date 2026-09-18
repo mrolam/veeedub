@@ -8,7 +8,7 @@
     if (q.get("sent") === "1") {
       var note = document.createElement("p");
       note.className = "form-note";
-      note.style.cssText = "margin:0 0 .7rem;padding:.75rem .9rem;border:1px solid rgba(46,196,182,.4);border-radius:10px;background:rgba(46,196,182,.08);color:#2ec4b6;font-weight:600";
+      note.style.cssText = "margin:0 0 .7rem;padding:.75rem .9rem;border:1px solid rgba(0,124,130,.4);border-radius:10px;background:#EDE6DA;color:#005F63;font-weight:600;font-family:Poppins,system-ui,sans-serif";
       note.textContent = "Thanks — your booking inquiry was sent to Mitch.";
       var form = document.querySelector(".booking-form");
       if (form) form.parentNode.insertBefore(note, form);

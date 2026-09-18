@@ -29,3 +29,12 @@ FormSubmit posts to `mitch@rolams.com` (cc artist). First submission may require
 ## Photos
 
 Clean studio portraits only (`assets/studio-1.jpg` … `studio-5.jpg`). No Canva editor chrome / EPK window screenshots.
+
+## Brand system (2026)
+
+- **Palette:** `#007C82` teal · `#005F63` deep teal · `#46C7C7` aqua · `#DC582A` burnt orange · `#F2A900` gold · `#EDE6DA` cream · `#C19A6B` camel · `#2B2B2B` charcoal
+- **Themes:** cream primary · teal authority (hero/music/media) · deep-teal footer · camel accent callouts
+- **Buttons:** orange on cream/dark (cream text, aqua hover); gold on teal; teal on camel
+- **Type:** Fraunces (short H1 / Recoleta stand-in) · Poppins (nav/H2/H3/UI) · Nunito (body)
+- No pure-white backgrounds; no orange section backgrounds
+
