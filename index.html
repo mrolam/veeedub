@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Nunito:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css?v=e705a8d" />
+  <link rel="stylesheet" href="landing.css?v=1" />
+  <script src="landing.js?v=1"></script>
 </head>
 <body class="theme-primary">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -89,6 +91,23 @@
       <a href="contact.html">Book via Rolam</a>
     </div>
   </footer>
+  <div class="vd-landing" id="vd-landing" role="dialog" aria-modal="true" aria-labelledby="vd-landing-title" aria-describedby="vd-landing-pitch" hidden>
+    <div class="vd-landing-inner">
+      <img class="vd-avatar" src="assets/studio-1.jpg" alt="VEEEDUB" width="1320" height="1960" decoding="async" />
+      <p class="vd-name" id="vd-landing-title">VEEE<span>DUB</span></p>
+      <div class="vd-rule" aria-hidden="true"></div>
+      <p class="vd-tagline">Know Your Worth. <em>Move Like It.</em></p>
+      <p class="vd-pitch" id="vd-landing-pitch">Join the list for new mixes, gigs and merch drops.</p>
+      <form class="vd-form" action="https://formsubmit.co/mitch@rolams.com" method="POST" novalidate>
+        <label class="vd-label" for="vd-email">Email address</label>
+        <input class="vd-input" id="vd-email" type="email" name="email" required autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" placeholder="you@email.com" />
+        <div class="vd-honey" aria-hidden="true"><input type="text" name="_honey" tabindex="-1" autocomplete="off" /></div>
+        <button class="vd-join" type="submit">Join</button>
+      </form>
+      <p class="vd-status" role="status" aria-live="polite"></p>
+      <a class="vd-enter" href="index.html?enter">Enter site <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
   <script src="script.js" defer></script>
 </body>
 </html>
