@@ -1,5 +1,5 @@
 /* VEEEDUB — first-visit email signup overlay (home page only). */
-var SHEET_ENDPOINT = ''; // Google Apps Script web app URL (…/exec). Leave '' to disable.
+var SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwPicTPv8g_V4atQc6jSszrfDQJotM4K9iOvzZGAY2vapeHLVAn2pBU9fukz_qiGZP0/exec'; // Google Apps Script web app URL (…/exec). Leave '' to disable.
 
 (function () {
   "use strict";
