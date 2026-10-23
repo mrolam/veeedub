@@ -771,3 +771,19 @@ h3 { font-size: 1rem; }
   padding: 1.15rem 1.2rem 1.25rem;
   border-radius: var(--radius);
 }
+
+/* ——— Latest Mix (home) ——— */
+.latest-mix {
+  margin: 2rem 0;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border-radius: var(--radius);
+}
+.latest-mix h2 { font-family: var(--ui); margin: 0.25rem 0; color: var(--cream); }
+.latest-mix .mix-title {
+  font-family: var(--ui); font-weight: 600; font-size: 1.25rem;
+  color: var(--gold); margin: 0 0 1rem;
+}
+.latest-mix .mix-embed { border-radius: 10px; overflow: hidden; background: var(--deep-teal); }
+.latest-mix .mix-embed iframe { display: block; width: 100%; height: 166px; border: 0; }
+.latest-mix .btn-primary { background: var(--gold); color: var(--charcoal); }
+.latest-mix .btn-primary:hover { background: var(--aqua); color: var(--charcoal); }
