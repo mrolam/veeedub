@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="VEEEDUB store — Coming Soon." />
+  <meta name="description" content="Shop the VEEEDUB logo hat — black trucker cap with the holographic teal VEEEDUB mark. $34.99." />
   <meta name="theme-color" content="#007C82" />
-  <title>Store | VEEEDUB — Coming Soon</title>
+  <title>Store | VEEEDUB Logo Hat — $34.99</title>
   <base href="/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Nunito:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=e705a8d" />
+  <link rel="stylesheet" href="styles.css?v=store7" />
 </head>
 <body class="theme-primary">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -28,43 +28,118 @@
   </header>
 
   <main id="main">
-    <section class="page wrap page-tight" aria-labelledby="store-title">
-      <div class="page-split">
-        <div class="store-hero">
-          <p class="eyebrow">Merch</p>
-          <h1 id="store-title">Store</h1>
-          <p class="lede">Coming Soon — Big V Energy merch is on the way.</p>
-          <div class="panel theme-accent">
-            <div class="pixel-row" aria-hidden="true"></div>
-            <p class="eyebrow orange">Coming Soon</p>
-            <h2 style="margin-bottom:.5rem">Merch drops loading…</h2>
-            <p class="lede" style="margin-bottom:0">Tees, hats, and more — no fake checkout. Want first dibs? Use the booking form or email Rolam Management.</p>
+    <section class="page wrap page-tight" aria-labelledby="product-title">
+      <article class="product-feature">
+        <div class="product-media">
+          <div class="product-stage">
+            <figure class="product-shot is-active" id="shot-video" data-shot="video">
+              <video
+                id="hat-video"
+                muted
+                autoplay
+                loop
+                playsinline
+                preload="auto"
+                poster="assets/veeedub-logo-hat-poster.jpg"
+                width="724"
+                height="960"
+                aria-label="Studio video of the black VEEEDUB trucker hat rotating on a turntable, then a close-up of the holographic logo glowing teal"
+              >
+                <source src="assets/veeedub-logo-hat.mp4" type="video/mp4" />
+              </video>
+            </figure>
+            <figure class="product-shot" id="shot-photo" data-shot="photo" hidden>
+              <img
+                src="assets/veeedub-logo-hat.jpg"
+                alt="Mitch and VEEEDUB wearing matching black VEEEDUB logo hats in a packed festival crowd under stage lights"
+                width="1179"
+                height="1504"
+              />
+            </figure>
+            <figure class="product-shot" id="shot-couple" data-shot="couple" hidden>
+              <img
+                src="assets/veeedub-hat-couple.jpg"
+                alt="A smiling couple in their 50s taking a sunset selfie by a pool, both wearing black VEEEDUB logo trucker hats"
+                width="1152"
+                height="864"
+              />
+            </figure>
+            <figure class="product-shot" id="shot-man" data-shot="man" hidden>
+              <img
+                src="assets/veeedub-hat-man.jpg"
+                alt="A smiling man in his 50s at a sunset pool party wearing a black VEEEDUB logo trucker hat"
+                width="1152"
+                height="864"
+              />
+            </figure>
+            <figure class="product-shot" id="shot-woman" data-shot="woman" hidden>
+              <img
+                src="assets/veeedub-hat-woman.jpg"
+                alt="A smiling Black woman in her 50s at a sunset pool party wearing a black VEEEDUB logo trucker hat"
+                width="1152"
+                height="864"
+              />
+            </figure>
+          </div>
+          <div class="product-thumbs" role="tablist" aria-label="Product media">
+            <button type="button" class="product-thumb is-active" role="tab" aria-selected="true" aria-controls="shot-video" data-shot="video" id="tab-video">
+              <img src="assets/veeedub-logo-hat-poster.jpg" alt="" width="900" height="1193" />
+              <span class="thumb-play" aria-hidden="true">▶</span>
+              <span class="visually-hidden">Product video</span>
+            </button>
+            <button type="button" class="product-thumb" role="tab" aria-selected="false" aria-controls="shot-photo" data-shot="photo" id="tab-photo">
+              <img src="assets/veeedub-logo-hat.jpg" alt="" width="1179" height="1504" />
+              <span class="visually-hidden">Festival photo of Mitch and VEEEDUB in the hats</span>
+            </button>
+            <button type="button" class="product-thumb" role="tab" aria-selected="false" aria-controls="shot-couple" data-shot="couple" id="tab-couple">
+              <img src="assets/veeedub-hat-couple.jpg" alt="" width="1152" height="864" />
+              <span class="visually-hidden">Couple wearing the hat</span>
+            </button>
+            <button type="button" class="product-thumb" role="tab" aria-selected="false" aria-controls="shot-man" data-shot="man" id="tab-man">
+              <img src="assets/veeedub-hat-man.jpg" alt="" width="1152" height="864" />
+              <span class="visually-hidden">Man wearing the hat</span>
+            </button>
+            <button type="button" class="product-thumb" role="tab" aria-selected="false" aria-controls="shot-woman" data-shot="woman" id="tab-woman">
+              <img src="assets/veeedub-hat-woman.jpg" alt="" width="1152" height="864" />
+              <span class="visually-hidden">Woman wearing the hat</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="product-info">
+          <p class="eyebrow orange">Merch · Available now</p>
+          <h1 id="product-title">VEEE<span>DUB</span> Logo Hat</h1>
+          <p class="product-price-lg">$34.99 <span class="product-shipping">Free shipping</span></p>
+          <p class="tagline">Big V Energy, from the booth to the crowd.</p>
+          <p class="lede">Black trucker. Holographic VEEEDUB logo. Teal in the lights, iridescent up close. Festival-tested, dance-floor ready.</p>
+          <ul class="product-details">
+            <li>Black foam-front trucker with mesh back</li>
+            <li>Holographic VEEEDUB logo — the circular mark with headphones and DUB</li>
+            <li>Free U.S. shipping</li>
+          </ul>
+          <div class="product-checkout">
+            <!--
+              PayPal hosted button E45NAF6FC7MXS.
+              SDK client-id is serverData.sdkClientId from the public payment page
+              https://www.paypal.com/ncp/payment/E45NAF6FC7MXS (item: Veeedub Trucker Hat, $34.99, shipping $0).
+            -->
+            <div class="paypal-wrap">
+              <div id="paypal-container-E45NAF6FC7MXS"></div>
+              <a
+                class="btn btn-primary paypal-fallback"
+                id="paypal-fallback"
+                href="https://www.paypal.com/ncp/payment/E45NAF6FC7MXS"
+                hidden
+              >Buy with PayPal</a>
+            </div>
             <div class="btn-row">
-              <a class="btn btn-primary" href="mailto:mitch@rolams.com?subject=VEEEDUB%20merch%20notify%20me">Notify me</a>
-              <a class="btn btn-ghost" href="contact.html">Booking / Contact</a>
+              <a class="btn btn-ghost" href="mailto:mitch@rolams.com?subject=VEEEDUB%20Hat%20question">Questions?</a>
             </div>
           </div>
         </div>
-        <figure class="page-visual">
-          <img src="assets/studio-4.jpg" alt="VEEEDUB wearing an orange hoodie over a VEEEDUB logo tee" width="1400" height="1750" loading="lazy" />
-        </figure>
-      </div>
+      </article>
 
-      <div class="store-grid" aria-hidden="true">
-        <article class="product-card">
-          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">VEEE<span>DUB</span></p></div>
-          <div class="product-body"><h3>Big V Tee</h3><p class="product-price">$—</p></div>
-        </article>
-        <article class="product-card">
-          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">BIG V</p></div>
-          <div class="product-body"><h3>Dad Hat</h3><p class="product-price">$—</p></div>
-        </article>
-        <article class="product-card">
-          <div class="product-visual"><span class="product-badge">Soon</span><p class="mark">WORTH</p></div>
-          <div class="product-body"><h3>Move Like It Crew</h3><p class="product-price">$—</p></div>
-        </article>
-      </div>
-      <p class="store-note">Checkout connects later (Shopify or similar). Coming Soon only for launch.</p>
+      <p class="store-note">More merch coming soon.</p>
     </section>
   </main>
 
@@ -75,5 +150,66 @@
     </div>
   </footer>
   <script src="script.js" defer></script>
+  <script>
+    (function () {
+      var thumbs = document.querySelectorAll(".product-thumb");
+      var shots = document.querySelectorAll(".product-shot");
+      var video = document.getElementById("hat-video");
+      if (!thumbs.length) return;
+
+      function show(name) {
+        shots.forEach(function (shot) {
+          var on = shot.getAttribute("data-shot") === name;
+          shot.classList.toggle("is-active", on);
+          if (on) shot.removeAttribute("hidden");
+          else shot.setAttribute("hidden", "");
+        });
+        thumbs.forEach(function (btn) {
+          var on = btn.getAttribute("data-shot") === name;
+          btn.classList.toggle("is-active", on);
+          btn.setAttribute("aria-selected", on ? "true" : "false");
+        });
+        if (video) {
+          if (name === "video") {
+            var play = video.play();
+            if (play && play.catch) play.catch(function () {});
+          } else {
+            video.pause();
+          }
+        }
+      }
+
+      thumbs.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          show(btn.getAttribute("data-shot"));
+        });
+      });
+    })();
+  </script>
+
+  <!-- PayPal JS SDK required by HostedButtons. client-id verified from the public ncp payment page. -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AXI9ufE0S2cbFXEi71kHRu9MaQbN01UYPuQidJxjE_t00Yk6NdSr0joXht4Z3NNvw6pjZSCqG-p99FZS&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+  <script>
+    (function () {
+      var fallback = document.getElementById("paypal-fallback");
+      function showFallback() {
+        if (fallback) fallback.removeAttribute("hidden");
+      }
+      if (!(window.paypal && typeof paypal.HostedButtons === "function")) {
+        showFallback();
+        return;
+      }
+      try {
+        var result = paypal.HostedButtons({
+          hostedButtonId: "E45NAF6FC7MXS",
+        }).render("#paypal-container-E45NAF6FC7MXS");
+        if (result && typeof result.catch === "function") {
+          result.catch(function () { showFallback(); });
+        }
+      } catch (err) {
+        showFallback();
+      }
+    })();
+  </script>
 </body>
 </html>
